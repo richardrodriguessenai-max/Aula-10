@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Laboratório de grid</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-slate-100 text-slate-800 p-4">
+
+  <!--
+    LABORATÓRIO DE GRID (versão dos alunos)
+    Digite as classes no <div> de fora (o container). Sem copiar e sem IA: use a documentação do Tailwind.
+
+    Tarefa 1: deixe as 6 caixas em 3 colunas, com espaço entre elas.
+    Tarefa 2: faça a caixa 1 ocupar 2 colunas.
+    Tarefa 3: no celular, 1 coluna; a partir de 1024 px, 3 colunas.
+    Tarefa 4 (extra): barra lateral. Use 4 colunas: a caixa 1 ocupa 1 coluna e a caixa 2 ocupa 3.
+
+    Pistas de busca: Grid Template Columns, Grid Column Start / End, Gap.
+  -->
+
+  <div class="grid grid-cols-1 lg:grid-cols-4 gap-6 ">
+    <div class="bg-indigo-200 p-4 rounded text-center ">1</div>
+    <div class="bg-indigo-200 p-4 rounded text-center lg:col-span-3">2</div>
+
+  </div>
+
+</body>
+</html>
